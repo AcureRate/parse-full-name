@@ -80,9 +80,9 @@ exports.parseFullName = function parseFullName(
               namePartWords[j] = namePartWords[j].slice(0,1).toUpperCase() +
                 namePartWords[j].slice(1).toLowerCase();
             }
+            namePartWords[j].slice(0).toUpperCase();
           }
 
-          namePartWords[j].slice(0).toUpperCase();
           fixedCaseName[namePartLabels[i]] = namePartWords.join(' ');
         }
       }
