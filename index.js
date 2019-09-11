@@ -87,7 +87,7 @@ exports.parseFullName = function parseFullName(
 
               for (; z < n; z++) {
                 if (namePartWords[j][z + 1] && namePartWords[j][z] == '-') {
-                  namePartWords[j].slice(z + 1).toUpperCase();
+                  namePartWords[j] = namePartWords[j].slice(z + 1).toUpperCase() + namePartWords[j].slice(z + 2);
                 }
               }
             }
