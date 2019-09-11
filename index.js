@@ -86,7 +86,7 @@ exports.parseFullName = function parseFullName(
               const n = namePartWords[j].length;
 
               for (; z < n; z++) {
-                if (namePartWords[j][z+1] && namePartWords[j][z] == '-'){
+                if (namePartWords[j][z + 1] && namePartWords[j][z] == '-') {
                   namePartWords[j][z] = namePartWords[j][z].toUpperCase();
                 }
               }
