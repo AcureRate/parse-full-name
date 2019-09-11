@@ -152,7 +152,7 @@ exports.parseFullName = function parseFullName(
     suffixList = ['esq','esquire','jr','jnr','sr','snr','2','ii','iii','iv',
       'md','phd','j.d.','ll.m.','m.d.','d.o.','d.c.','p.c.','ph.d.'];
     prefixList = ['ab','bar','bin','da','dal','de','de la','del','della','der',
-      'di','du','ibn','l\'','la','le','san','st','st.','ste','ter','van',
+      'di','du','ibn','l\'','la','le','san','st','st.','ste','ter','van','ben',
       'van de','van der','van den','vel','ver','vere','von'];
     titleList = ['dr','miss','mr','mrs','ms','prof','sir','frau','herr','hr',
       'monsieur','captain','doctor','judge','officer','professor', 'ind', 'misc',
