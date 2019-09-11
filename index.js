@@ -62,7 +62,7 @@ exports.parseFullName = function parseFullName(
                 namePartWords[j].slice(0,1)  ===
                   namePartWords[j].slice(0,1).toUpperCase() &&
                 namePartWords[j].slice(1,2) ===
-                  namePartWords[j].slice(1,2).toLowerCase() &&
+                  namePartWords[j].slice(1,2).toUpperCase() &&
                 namePartWords[j].slice(2) ===
                   namePartWords[j].slice(2).toUpperCase()
               ) { // Detect McCASE and convert to McCase
