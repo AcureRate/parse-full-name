@@ -80,14 +80,14 @@ exports.parseFullName = function parseFullName(
               namePartWords[j] = namePartWords[j].slice(0, 1).toUpperCase() +
                 namePartWords[j].slice(1).toLowerCase();
             }
-            
+
             namePartWords[j].slice(0).toUpperCase();
             if (namePartWords[j].includes('-')) {
               let z = 0;
               const n = namePartWords[j].length;
 
               for (; z < n; z++) {
-                if (str[z+1] && str[z] == '-'){
+                if (namePartWords[j][z+1] && namePartWords[j][z] == '-'){
                   namePartWords[j][z].toUpperCase();
                 }
               }
