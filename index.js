@@ -81,7 +81,6 @@ exports.parseFullName = function parseFullName(
                 namePartWords[j].slice(1).toLowerCase();
             }
 
-            namePartWords[j].slice(0).toUpperCase();
             if (namePartWords[j].includes('-')) {
               let z = 0;
               const n = namePartWords[j].length;
