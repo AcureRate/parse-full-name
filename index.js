@@ -91,7 +91,6 @@ exports.parseFullName = function parseFullName(
                 }
               }
             }
-
           }
 
           fixedCaseName[namePartLabels[i]] = namePartWords.join(' ');
